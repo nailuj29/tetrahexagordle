@@ -86,7 +86,7 @@ function getShareableText(
   if (timeElapsed !== null) {
     text.push(`Time: ${formatTimeElapsed(timeElapsed)}\n`);
   }
-  const cols = 4;
+  const cols = 8;
   const rows = Math.ceil(NUM_BOARDS / cols);
   for (let i = 0; i < rows; i++) {
     const row = [];
