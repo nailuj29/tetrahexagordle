@@ -64,8 +64,8 @@ export default function Header() {
   const numGuesses = guesses.length;
   const practice = useSelector((s) => s.game.practice);
   const title = practice
-    ? `Practice Duotrigordle`
-    : `Daily Duotrigordle #${id}`;
+    ? `Practice Tetrahexagordle`
+    : `Daily Tetrahexagordle #${id}`;
   const gameOver = useSelector((s) => s.game.gameOver);
   const extraGuessesNum =
     NUM_GUESSES - NUM_BOARDS - (numGuesses - boardsCompleted);

@@ -103,7 +103,7 @@ button {
 .boards {
   overflow-y: scroll;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(8, auto);
   align-content: start;
   padding: 0 calc(var(--app-width) / 75) calc(var(--app-width) / 25)
     calc(var(--app-width) / 75);
@@ -134,7 +134,7 @@ button {
   align-items: center;
   justify-content: center;
   background: var(--guess-black);
-  font-size: calc(var(--app-width) / 25);
+  font-size: calc(var(--app-width) / 50);
   line-height: 0.75;
   user-select: none;
 

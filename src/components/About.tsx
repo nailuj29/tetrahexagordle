@@ -29,25 +29,35 @@ export default function About() {
   return (
     <div className={cn("popup-wrapper", !shown && "hidden")}>
       <div className="popup">
-        <p>Guess all 32 Duotrigordle words in 37 tries!</p>
+        <p>Guess all 64 Tetrahexagordle words in 69 tries!</p>
         <p>
-          A new Daily Duotrigordle will be available in {hoursRemaining} hour
+          A new Daily Tetrahexagordle will be available in {hoursRemaining} hour
           {hoursRemaining === "1" ? "" : "s"}.
         </p>
         <hr className="separator" />
-        <p>Duotrigordle by Bryan Chen</p>
+        <p>Tetragexagordle by Nailuj29</p>
         <p>
           Source code on{" "}
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/thesilican/duotrigordle"
+            href="https://github.com/nailuj29/tetrahexagordle"
           >
             GitHub
           </a>
         </p>
         <p>Based on</p>
         <ul>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://duotrigordle.com/"
+            >
+              Duotrigordle
+            </a>{" "}
+            by Bryan Chen
+          </li>
           <li>
             <a
               rel="noreferrer"
