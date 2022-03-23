@@ -86,14 +86,14 @@ export function formatTimeElapsed(miliseconds: number) {
   );
 }
 
-// Returns the id for today's duotrigordle
+// Returns the id for today's tetrahexagordle
 export function getTodaysId(): number {
   const today = new Date();
   const diff = today.getTime() - START_DATE.getTime();
   return Math.ceil(diff / 1000 / 60 / 60 / 24);
 }
 
-// Given a duotrigordle id, return the corresponding 32 target wordles
+// Given a tetrahexagordle id, return the corresponding 32 target wordles
 export function getTargetWords(id: number): string[] {
   const targetWords: string[] = [];
   const rng = MersenneTwister(id);

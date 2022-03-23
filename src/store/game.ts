@@ -5,7 +5,7 @@ import { allWordsGuessed, getTargetWords, range } from "../funcs";
 // Don't forget to update corresponding shape checks in funcs.ts
 // if you add/remove fields
 export type GameState = {
-  // Daily duotrigordle number (seed for target words)
+  // Daily tetrahexagordle number (seed for target words)
   id: number;
   // Current word input
   input: string;

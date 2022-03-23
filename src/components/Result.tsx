@@ -78,9 +78,9 @@ function getShareableText(
 ) {
   const text = [];
   if (practice) {
-    text.push(`Practice Duotrigordle\n`);
+    text.push(`Practice Tetrahexagordle\n`);
   } else {
-    text.push(`Daily Duotrigordle #${id}\n`);
+    text.push(`Daily Tetrahexagordle #${id}\n`);
   }
   text.push(`Guesses: ${guessCount ?? "X"}/${NUM_GUESSES}\n`);
   if (timeElapsed !== null) {
@@ -107,6 +107,6 @@ function getShareableText(
 
     text.push(row.join(" ") + "\n");
   }
-  text.push("https://duotrigordle.com/");
+  text.push("https://tetrahexagordle.nailuj29gaming.repl.co/");
   return text.join("");
 }
